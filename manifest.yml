@@ -1,0 +1,17 @@
+applications:
+- services:
+  - sample-java-cloudant-cloudantNoSQLDB
+  disk_quota: 1024M
+  host: sample-java-cloudant
+  name: sample-java-cloudant
+  description: This application demonstrates how to use the Cloudant NoSQL DB service, with the 'Liberty for Java™' runtime on IBM Cloud.
+  image: https://console.ng.bluemix.net/rest/templates/CloudantJavaBPTemplate/cachedIcon/large/0
+  path: JavaCloudantDB.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
+  
+declared-services:
+  sample-java-cloudant-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan:  Shared
