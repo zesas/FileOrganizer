@@ -4,7 +4,7 @@ the 'Liberty for Java™' runtime on IBM Bluemix Cloud.
 
 You can deploy your own copy of this application using the button below:
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/idsorg/sample-java-cloudant)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/zesas/FileOrganizer.git)
 
 
 This repository is targeted by sample buttons in documentation such as
